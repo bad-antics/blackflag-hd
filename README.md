@@ -163,3 +163,33 @@ GPL-3.0 - See [LICENSE](LICENSE) for details.
 ---
 
 **BlackFlag HD** - *Professional Heavy Duty Diagnostics*
+
+## 🚛 Heavy Duty Coverage
+
+### Class 4-5 (14,001-19,500 lbs)
+- **Ford** - F-450, F-550
+- **Ram** - 4500, 5500
+- **GM** - 4500HD, 5500HD
+
+### Class 6-7 (19,501-33,000 lbs)
+- **Freightliner** - M2 106, M2 112
+- **Kenworth** - T270, T370
+- **Peterbilt** - 325, 337, 348
+- **International** - MV, HV Series
+
+### Class 8 (33,001+ lbs)
+- **Freightliner** - Cascadia, Columbia
+- **Kenworth** - W990, T680, T880
+- **Peterbilt** - 389, 579, 567
+- **Volvo** - VNL, VNR
+- **Mack** - Anthem, Pinnacle
+
+## 🔧 Engine Support
+
+| Engine | Years | Features |
+|--------|-------|----------|
+| Cummins ISX15 | 2010-2025 | DPF/EGR/DEF delete, power tunes |
+| Detroit DD13/DD15 | 2014-2025 | Emissions, fuel maps, speed |
+| Paccar MX-13 | 2013-2025 | Performance, emissions |
+| Volvo D13 | 2014-2025 | Full calibration support |
+
