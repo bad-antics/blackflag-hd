@@ -1,0 +1,308 @@
+{
+  "database_version": "1.0",
+  "vehicle_classes": "4-8",
+  "total_vehicles": 150,
+  "vehicles": [
+    {
+      "category": "Class 8 Trucks",
+      "manufacturers": [
+        {
+          "make": "Freightliner",
+          "models": [
+            {"model": "Cascadia", "years": "2017-2024", "engine": "Detroit DD13/DD15", "protocol": "J1939"},
+            {"model": "Cascadia Evolution", "years": "2014-2020", "engine": "Detroit DD15", "protocol": "J1939"},
+            {"model": "122SD", "years": "2015-2024", "engine": "Detroit DD13/DD15/DD16", "protocol": "J1939"},
+            {"model": "114SD", "years": "2015-2024", "engine": "Cummins ISL/ISX", "protocol": "J1939"},
+            {"model": "M2 112", "years": "2012-2024", "engine": "Cummins ISB/ISL", "protocol": "J1939"}
+          ]
+        },
+        {
+          "make": "Kenworth",
+          "models": [
+            {"model": "T680", "years": "2013-2024", "engine": "PACCAR MX-13", "protocol": "J1939"},
+            {"model": "T880", "years": "2014-2024", "engine": "PACCAR MX-11/MX-13", "protocol": "J1939"},
+            {"model": "W990", "years": "2019-2024", "engine": "PACCAR MX-13/Cummins X15", "protocol": "J1939"},
+            {"model": "T370", "years": "2010-2024", "engine": "PACCAR PX-7/PX-9", "protocol": "J1939"},
+            {"model": "T270", "years": "2008-2024", "engine": "PACCAR PX-7", "protocol": "J1939"},
+            {"model": "T800", "years": "2005-2021", "engine": "Cummins ISX/CAT C15", "protocol": "J1939"}
+          ]
+        },
+        {
+          "make": "Peterbilt",
+          "models": [
+            {"model": "579", "years": "2013-2024", "engine": "PACCAR MX-13", "protocol": "J1939"},
+            {"model": "567", "years": "2014-2024", "engine": "PACCAR MX-11/MX-13", "protocol": "J1939"},
+            {"model": "389", "years": "2007-2024", "engine": "PACCAR MX-13/Cummins X15", "protocol": "J1939"},
+            {"model": "337", "years": "2008-2024", "engine": "PACCAR PX-7/PX-9", "protocol": "J1939"},
+            {"model": "348", "years": "2007-2024", "engine": "PACCAR PX-7/PX-9", "protocol": "J1939"},
+            {"model": "520", "years": "2016-2024", "engine": "PACCAR PX-7", "protocol": "J1939"}
+          ]
+        },
+        {
+          "make": "Volvo Trucks",
+          "models": [
+            {"model": "VNL 860", "years": "2018-2024", "engine": "Volvo D13", "protocol": "J1939"},
+            {"model": "VNL 760", "years": "2018-2024", "engine": "Volvo D11/D13", "protocol": "J1939"},
+            {"model": "VNL 300", "years": "2018-2024", "engine": "Volvo D11", "protocol": "J1939"},
+            {"model": "VNR 300", "years": "2018-2024", "engine": "Volvo D11/D13", "protocol": "J1939"},
+            {"model": "VNR 400", "years": "2018-2024", "engine": "Volvo D11/D13", "protocol": "J1939"},
+            {"model": "VNR 640", "years": "2018-2024", "engine": "Volvo D13", "protocol": "J1939"},
+            {"model": "VHD 300", "years": "2018-2024", "engine": "Volvo D11/D13", "protocol": "J1939"},
+            {"model": "VNX", "years": "2020-2024", "engine": "Volvo D13/D16", "protocol": "J1939"}
+          ]
+        },
+        {
+          "make": "Mack",
+          "models": [
+            {"model": "Anthem", "years": "2018-2024", "engine": "Mack MP7/MP8", "protocol": "J1939"},
+            {"model": "Pinnacle", "years": "2007-2020", "engine": "Mack MP7/MP8", "protocol": "J1939"},
+            {"model": "Granite", "years": "2007-2024", "engine": "Mack MP7/MP8", "protocol": "J1939"},
+            {"model": "LR", "years": "2017-2024", "engine": "Mack MP7", "protocol": "J1939"},
+            {"model": "TerraPro", "years": "2007-2024", "engine": "Mack MP7", "protocol": "J1939"},
+            {"model": "MD Series", "years": "2020-2024", "engine": "Cummins B6.7", "protocol": "J1939"}
+          ]
+        },
+        {
+          "make": "International",
+          "models": [
+            {"model": "LT Series", "years": "2017-2024", "engine": "Navistar A26", "protocol": "J1939"},
+            {"model": "HX Series", "years": "2016-2024", "engine": "Navistar A26/Cummins X15", "protocol": "J1939"},
+            {"model": "RH Series", "years": "2018-2024", "engine": "Navistar A26", "protocol": "J1939"},
+            {"model": "HV Series", "years": "2018-2024", "engine": "Navistar A26/Cummins L9", "protocol": "J1939"},
+            {"model": "MV Series", "years": "2019-2024", "engine": "Navistar B6.7/Cummins B6.7", "protocol": "J1939"},
+            {"model": "ProStar", "years": "2008-2018", "engine": "MaxxForce/Cummins ISX", "protocol": "J1939"}
+          ]
+        },
+        {
+          "make": "Western Star",
+          "models": [
+            {"model": "4900", "years": "2007-2024", "engine": "Detroit DD15/DD16", "protocol": "J1939"},
+            {"model": "5700", "years": "2015-2024", "engine": "Detroit DD15/DD16", "protocol": "J1939"},
+            {"model": "49X", "years": "2020-2024", "engine": "Detroit DD15/DD16", "protocol": "J1939"},
+            {"model": "47X", "years": "2022-2024", "engine": "Detroit DD13", "protocol": "J1939"},
+            {"model": "4700", "years": "2007-2022", "engine": "Detroit DD13", "protocol": "J1939"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Class 6-7 Medium Duty",
+      "manufacturers": [
+        {
+          "make": "Freightliner",
+          "models": [
+            {"model": "M2 106", "years": "2010-2024", "engine": "Cummins ISB", "protocol": "J1939/OBD-II"},
+            {"model": "M2 106 Plus", "years": "2020-2024", "engine": "Cummins B6.7", "protocol": "J1939"},
+            {"model": "S2RV", "years": "2015-2024", "engine": "Cummins ISB", "protocol": "J1939"}
+          ]
+        },
+        {
+          "make": "Hino",
+          "models": [
+            {"model": "L6", "years": "2019-2024", "engine": "Hino A09C", "protocol": "J1939/OBD-II"},
+            {"model": "L7", "years": "2019-2024", "engine": "Hino A09C", "protocol": "J1939/OBD-II"},
+            {"model": "268", "years": "2012-2024", "engine": "Hino J08E", "protocol": "J1939/OBD-II"},
+            {"model": "338", "years": "2012-2024", "engine": "Hino J08E", "protocol": "J1939/OBD-II"},
+            {"model": "258LP", "years": "2012-2024", "engine": "Hino J05E", "protocol": "J1939/OBD-II"}
+          ]
+        },
+        {
+          "make": "Isuzu",
+          "models": [
+            {"model": "FTR", "years": "2018-2024", "engine": "Isuzu 6HK1", "protocol": "J1939/OBD-II"},
+            {"model": "FVR", "years": "2018-2024", "engine": "Isuzu 6HK1", "protocol": "J1939/OBD-II"},
+            {"model": "NPR-HD", "years": "2008-2024", "engine": "Isuzu 4HK1", "protocol": "J1939/OBD-II"},
+            {"model": "NQR", "years": "2008-2024", "engine": "Isuzu 4HK1", "protocol": "J1939/OBD-II"},
+            {"model": "NRR", "years": "2008-2024", "engine": "Isuzu 4HK1", "protocol": "J1939/OBD-II"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Class 4-5 Medium Duty",
+      "manufacturers": [
+        {
+          "make": "Ford",
+          "models": [
+            {"model": "F-450 Super Duty", "years": "2017-2024", "engine": "6.7L Power Stroke", "protocol": "OBD-II/CAN"},
+            {"model": "F-550 Super Duty", "years": "2017-2024", "engine": "6.7L Power Stroke", "protocol": "OBD-II/CAN"},
+            {"model": "F-600 Super Duty", "years": "2020-2024", "engine": "7.3L Godzilla/6.7L PS", "protocol": "OBD-II/CAN"},
+            {"model": "F-650", "years": "2016-2024", "engine": "6.7L Power Stroke", "protocol": "OBD-II/CAN"},
+            {"model": "F-750", "years": "2016-2024", "engine": "6.7L Power Stroke", "protocol": "OBD-II/CAN"}
+          ]
+        },
+        {
+          "make": "Ram",
+          "models": [
+            {"model": "4500", "years": "2013-2024", "engine": "6.7L Cummins", "protocol": "OBD-II/CAN"},
+            {"model": "5500", "years": "2013-2024", "engine": "6.7L Cummins", "protocol": "OBD-II/CAN"}
+          ]
+        },
+        {
+          "make": "Chevrolet/GMC",
+          "models": [
+            {"model": "Silverado 4500HD", "years": "2019-2024", "engine": "6.6L Duramax", "protocol": "OBD-II/CAN"},
+            {"model": "Silverado 5500HD", "years": "2019-2024", "engine": "6.6L Duramax", "protocol": "OBD-II/CAN"},
+            {"model": "Silverado 6500HD", "years": "2019-2024", "engine": "6.6L Duramax", "protocol": "OBD-II/CAN"},
+            {"model": "Low Cab Forward 4500", "years": "2016-2024", "engine": "6.6L Duramax", "protocol": "OBD-II/CAN"},
+            {"model": "Low Cab Forward 5500", "years": "2016-2024", "engine": "6.6L Duramax", "protocol": "OBD-II/CAN"}
+          ]
+        },
+        {
+          "make": "Hino",
+          "models": [
+            {"model": "155", "years": "2012-2024", "engine": "Hino J05E", "protocol": "OBD-II/CAN"},
+            {"model": "195", "years": "2012-2024", "engine": "Hino J05E", "protocol": "OBD-II/CAN"}
+          ]
+        },
+        {
+          "make": "Isuzu",
+          "models": [
+            {"model": "NPR", "years": "2008-2024", "engine": "Isuzu 4HK1", "protocol": "OBD-II/CAN"},
+            {"model": "NPR-XD", "years": "2018-2024", "engine": "Isuzu 4HK1", "protocol": "OBD-II/CAN"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Buses",
+      "manufacturers": [
+        {
+          "make": "Thomas Built",
+          "models": [
+            {"model": "Saf-T-Liner C2", "years": "2007-2024", "engine": "Cummins ISB/B6.7", "protocol": "J1939"},
+            {"model": "Saf-T-Liner HDX", "years": "2010-2024", "engine": "Detroit DD8", "protocol": "J1939"},
+            {"model": "Jouley EV", "years": "2020-2024", "engine": "Electric", "protocol": "J1939/CAN-FD"}
+          ]
+        },
+        {
+          "make": "Blue Bird",
+          "models": [
+            {"model": "Vision", "years": "2008-2024", "engine": "Cummins ISB/B6.7", "protocol": "J1939"},
+            {"model": "All American", "years": "2008-2024", "engine": "Cummins ISB/L9", "protocol": "J1939"},
+            {"model": "Electric Vision", "years": "2019-2024", "engine": "Electric", "protocol": "J1939/CAN-FD"}
+          ]
+        },
+        {
+          "make": "IC Bus",
+          "models": [
+            {"model": "CE Series", "years": "2007-2024", "engine": "Cummins B6.7/MaxxForce 7", "protocol": "J1939"},
+            {"model": "RE Series", "years": "2007-2024", "engine": "Cummins L9/MaxxForce DT", "protocol": "J1939"},
+            {"model": "BE Electric", "years": "2021-2024", "engine": "Electric", "protocol": "J1939/CAN-FD"}
+          ]
+        },
+        {
+          "make": "Gillig",
+          "models": [
+            {"model": "Low Floor", "years": "2010-2024", "engine": "Cummins ISL/L9", "protocol": "J1939"},
+            {"model": "BRT Plus", "years": "2015-2024", "engine": "Cummins L9", "protocol": "J1939"},
+            {"model": "Battery Electric", "years": "2019-2024", "engine": "Electric", "protocol": "J1939/CAN-FD"}
+          ]
+        },
+        {
+          "make": "New Flyer",
+          "models": [
+            {"model": "Xcelsior", "years": "2013-2024", "engine": "Cummins ISL/L9", "protocol": "J1939"},
+            {"model": "Xcelsior CHARGE", "years": "2017-2024", "engine": "Electric", "protocol": "J1939/CAN-FD"},
+            {"model": "Xcelsior CHARGE NG", "years": "2020-2024", "engine": "Electric", "protocol": "J1939/CAN-FD"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Construction Equipment",
+      "manufacturers": [
+        {
+          "make": "Caterpillar",
+          "models": [
+            {"model": "D6 Dozer", "years": "2015-2024", "engine": "CAT C9.3", "protocol": "CAT DataLink"},
+            {"model": "D8 Dozer", "years": "2015-2024", "engine": "CAT C15", "protocol": "CAT DataLink"},
+            {"model": "320 Excavator", "years": "2018-2024", "engine": "CAT C7.1", "protocol": "CAT DataLink"},
+            {"model": "336 Excavator", "years": "2018-2024", "engine": "CAT C9.3", "protocol": "CAT DataLink"},
+            {"model": "966 Loader", "years": "2015-2024", "engine": "CAT C9.3", "protocol": "CAT DataLink"},
+            {"model": "980 Loader", "years": "2015-2024", "engine": "CAT C13", "protocol": "CAT DataLink"},
+            {"model": "745 ADT", "years": "2016-2024", "engine": "CAT C15", "protocol": "CAT DataLink"},
+            {"model": "777 Haul Truck", "years": "2012-2024", "engine": "CAT C27", "protocol": "CAT DataLink"}
+          ]
+        },
+        {
+          "make": "Komatsu",
+          "models": [
+            {"model": "D65 Dozer", "years": "2015-2024", "engine": "Komatsu SAA6D114E", "protocol": "J1939/KOMTRAX"},
+            {"model": "PC490 Excavator", "years": "2015-2024", "engine": "Komatsu SAA6D125E", "protocol": "J1939"},
+            {"model": "WA470 Loader", "years": "2015-2024", "engine": "Komatsu SAA6D125E", "protocol": "J1939"},
+            {"model": "HD785 Dump Truck", "years": "2012-2024", "engine": "Komatsu SDA16V160", "protocol": "J1939"}
+          ]
+        },
+        {
+          "make": "John Deere",
+          "models": [
+            {"model": "850L Dozer", "years": "2017-2024", "engine": "JD 6.8L", "protocol": "J1939"},
+            {"model": "470G Excavator", "years": "2016-2024", "engine": "JD 9.0L", "protocol": "J1939"},
+            {"model": "744 Loader", "years": "2015-2024", "engine": "JD 6.8L", "protocol": "J1939"},
+            {"model": "410E ADT", "years": "2015-2024", "engine": "JD 9.0L", "protocol": "J1939"}
+          ]
+        },
+        {
+          "make": "Volvo CE",
+          "models": [
+            {"model": "EC480 Excavator", "years": "2015-2024", "engine": "Volvo D13", "protocol": "J1939"},
+            {"model": "L180H Loader", "years": "2015-2024", "engine": "Volvo D13", "protocol": "J1939"},
+            {"model": "A40G ADT", "years": "2015-2024", "engine": "Volvo D13", "protocol": "J1939"}
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Agricultural Equipment",
+      "manufacturers": [
+        {
+          "make": "John Deere",
+          "models": [
+            {"model": "8R Tractor", "years": "2020-2024", "engine": "JD 9.0L", "protocol": "J1939/ISO 11783"},
+            {"model": "9R Tractor", "years": "2020-2024", "engine": "JD 13.5L", "protocol": "J1939/ISO 11783"},
+            {"model": "S780 Combine", "years": "2018-2024", "engine": "JD 13.5L", "protocol": "J1939/ISO 11783"},
+            {"model": "X9 Combine", "years": "2021-2024", "engine": "JD 13.5L", "protocol": "J1939/ISO 11783"},
+            {"model": "4640 Sprayer", "years": "2015-2024", "engine": "JD 6.8L", "protocol": "J1939/ISO 11783"}
+          ]
+        },
+        {
+          "make": "Case IH",
+          "models": [
+            {"model": "Magnum 340", "years": "2018-2024", "engine": "FPT Cursor 9", "protocol": "J1939/ISO 11783"},
+            {"model": "Steiger 620", "years": "2018-2024", "engine": "FPT Cursor 13", "protocol": "J1939/ISO 11783"},
+            {"model": "Axial-Flow 9250", "years": "2018-2024", "engine": "FPT Cursor 13", "protocol": "J1939/ISO 11783"},
+            {"model": "Patriot 4440", "years": "2015-2024", "engine": "FPT 6.7L", "protocol": "J1939/ISO 11783"}
+          ]
+        },
+        {
+          "make": "New Holland",
+          "models": [
+            {"model": "T8 Tractor", "years": "2018-2024", "engine": "FPT Cursor 9", "protocol": "J1939/ISO 11783"},
+            {"model": "CR10.90 Combine", "years": "2018-2024", "engine": "FPT Cursor 13", "protocol": "J1939/ISO 11783"},
+            {"model": "SP370F Sprayer", "years": "2015-2024", "engine": "FPT 6.7L", "protocol": "J1939/ISO 11783"}
+          ]
+        },
+        {
+          "make": "AGCO/Fendt",
+          "models": [
+            {"model": "Fendt 1050", "years": "2018-2024", "engine": "MAN D2676", "protocol": "J1939/ISO 11783"},
+            {"model": "Challenger MT900", "years": "2015-2024", "engine": "AGCO Power 9.8L", "protocol": "J1939/ISO 11783"},
+            {"model": "Ideal 9T Combine", "years": "2018-2024", "engine": "AGCO Power 9.8L", "protocol": "J1939/ISO 11783"}
+          ]
+        }
+      ]
+    }
+  ],
+  "engines": {
+    "Cummins": ["ISB", "B6.7", "ISL", "L9", "ISX", "X12", "X15"],
+    "Detroit": ["DD5", "DD8", "DD13", "DD15", "DD16", "Series 60"],
+    "PACCAR": ["PX-7", "PX-9", "MX-11", "MX-13"],
+    "Navistar": ["A26", "B6.7", "MaxxForce 7", "MaxxForce DT", "MaxxForce 11", "MaxxForce 13"],
+    "Volvo": ["D11", "D13", "D16"],
+    "Mack": ["MP7", "MP8"],
+    "Caterpillar": ["C7", "C9", "C13", "C15", "C18", "C27", "C32"],
+    "Hino": ["J05E", "J08E", "A09C"],
+    "Isuzu": ["4HK1", "6HK1", "6WG1"]
+  }
+}
