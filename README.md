@@ -193,3 +193,5 @@ GPL-3.0 - See [LICENSE](LICENSE) for details.
 | Paccar MX-13 | 2013-2025 | Performance, emissions |
 | Volvo D13 | 2014-2025 | Full calibration support |
 
+
+<!-- Updated: 2026-01-25 13:42:30 -->
