@@ -83,7 +83,7 @@ Yes. ECU flash counters, DEF usage data, and diagnostic logs can reveal modifica
 
 ### Where can I get help?
 - GitHub Issues: github.com/bad-antics/blackflag-hd/issues
-- Discord: discord.gg/killers
+- Twitter: x.com/AnonAntics
 - Documentation: See docs/ folder
 
 ---
